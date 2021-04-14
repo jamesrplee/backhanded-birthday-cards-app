@@ -1,0 +1,39 @@
+label {
+  font-size: 0.9rem;
+  color: var(--body);
+  width: 6rem;
+}
+
+.Form div {
+  border-bottom: 1px solid var(--body);
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+
+input {
+  border: 0;
+  font-family: 'Dela Gothic One';
+  padding: 0;
+  font-size: 2rem;
+  line-height: 1;
+  margin-left: 2rem;
+  margin-bottom: -5px;
+  width: 100%;
+  color: var(--purple) !important;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  opacity: 0.3;
+  color: var(--purple);
+}
+
+input:focus::placeholder, input:active::placeholder {
+  opacity: 0.5;
+  color: var(--purple);
+}
